@@ -4,6 +4,7 @@ Abandoned Object Detection via Temporal Consistency Modeling and Back-Tracing Ve
 
 Created by Kevin Lin, Shen-Chi Chen, Chu-Song Chen, Daw-Tung Lin, Yi-Ping Hung at National Taiwan University.
 
+FYI: This was an industry-oriented project. Some codes and image processing algorithms are implemented by ourself. We only use OpenCV for visualization. 
 
 ## Introduction
 
@@ -46,19 +47,19 @@ This demo detect abandoned luggage in the video
 
     $ ./ObjLeft
 
-Input option. 1: video, 2: camera
+Select the input source (1: video, 2: camera)
 
     $ 1
 
-type the video file name
+type the filename if you choose video
 
     $ pets2006_1.avi
 
-Click the image and select the Region of Interest
+Click the image and select the Region of Interest (ROI)
 
-Press "space" and start detection!
+Double-press any key to start detection!
 
 
 ## Contact
 
-Please feel free to leave suggestions or comments to Kevin Lin (kevinlin311.tw@iis.sinica.edu.tw)
+Since the source codes are a bit messy, please feel free to contact me (kevinlin311.tw@iis.sinica.edu.tw) if you have any question.
