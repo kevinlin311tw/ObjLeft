@@ -4,7 +4,7 @@ Abandoned Object Detection via Temporal Consistency Modeling and Back-Tracing Ve
 
 Created by Kevin Lin, Shen-Chi Chen, Chu-Song Chen, Daw-Tung Lin, Yi-Ping Hung at National Taiwan University.
 
-FYI: This is an industry-oriented project. Most of the algorithms are implemented by C/C++. We only use OpenCV for visualization. 
+FYI: This is an industry-oriented project. Most of the algorithms are implemented using C/C++. We only use OpenCV for visualization. 
 
 ## Introduction
 
