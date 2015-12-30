@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project(ObjLeft)
+find_package(OpenCV REQUIRED)
+link_directories(${MYPROJECT_DIR})
+set (CMAKE_CXX_FLAGS "-O2 -march=native")
+add_executable(ObjLeft main CBM_model myDIP myGMM myUtility ObjLeftDetect VideoDetails)
+target_link_libraries( ObjLeft ${OpenCV_LIBS})
