@@ -4,7 +4,7 @@ Abandoned Object Detection via Temporal Consistency Modeling and Back-Tracing Ve
 
 Created by Kevin Lin, Shen-Chi Chen, Chu-Song Chen, Daw-Tung Lin, Yi-Ping Hung at National Taiwan University.
 
-FYI: This is an industry-oriented project. Most of the algorithms are implemented using C/C++. We only use OpenCV for visualization. 
+_FYI: This is an industry-oriented project. Most of the algorithms are implemented using C/C++. We use OpenCV only for video input and visualization._
 
 ## Introduction
 
@@ -13,7 +13,7 @@ This paper presents an effective approach for detecting abandoned luggage in sur
 The details can be found in the following [IEEE TIFS 2015 paper](http://www.csie.ntu.edu.tw/~r01944012/TIFS15_LIN.pdf)
 
 
-## Citing the object left detection works
+## Citing the detection works
 
 If you find our works useful in your research, please consider citing:
 
@@ -29,10 +29,10 @@ If you find our works useful in your research, please consider citing:
 
 ## Prerequisites
 
-  0. OpenCV (tested with 2012b on 64-bit Linux)
+  0. OpenCV (tested on 64-bit Linux)
 
 
-## Compile ObjLeft
+## Setup ObjLeft
 
 Simply run the following commands:
 
@@ -55,11 +55,15 @@ type the filename if you choose video
 
     $ pets2006_1.avi
 
-Click the image and select the Region of Interest (ROI)
+Click a rectangular Region of Interest (ROI) for detection
 
-Double-press any key to start detection!
+<img src="https://www.csie.ntu.edu.tw/~r01944012/objleft_fig1.png" width="500">
+
+Double-press any key and start detection! This demo will detect the abandoned luggage and the owner trajectory as shown below.
+
+<img src="https://www.csie.ntu.edu.tw/~r01944012/objleft_fig2.png" width="800">
 
 
 ## Contact
 
-Since the source codes are a bit messy, please feel free to contact me (kevinlin311.tw@iis.sinica.edu.tw) if you have any question.
+Should you have any question, please feel free to contact me (kevinlin311.tw@iis.sinica.edu.tw).
