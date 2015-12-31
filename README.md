@@ -4,9 +4,7 @@ Abandoned Object Detection via Temporal Consistency Modeling and Back-Tracing Ve
 
 Created by Kevin Lin, Shen-Chi Chen, Chu-Song Chen, Daw-Tung Lin, Yi-Ping Hung at National Taiwan University.
 
-_FYI: This is an industry-oriented project. Most of the algorithms are implemented using C/C++. We use OpenCV only for video input and visualization._
-
-_FYI: I am improving the readability of this code. Will update it soon!_
+_FYI: This is an industry-oriented project. Most of the algorithms are implemented using C/C++. We use OpenCV only for video input and visualization. I am improving the readability of this code. Will update it soon!_
 
 
 ## Introduction
@@ -32,10 +30,10 @@ If you find our works useful in your research, please consider citing:
 
 ## Prerequisites
 
-  0. OpenCV (tested on 64-bit Linux)
+  0. OpenCV
 
 
-## Setup ObjLeft
+## Setup
 
 Simply run the following commands:
 
@@ -66,7 +64,7 @@ Double-press any key and start detection
 
 <img src="https://www.csie.ntu.edu.tw/~r01944012/objleft_fig2.jpg" width="800">
 
-This demo will detect the abandoned luggage and the owner trajectory.
+This demo will detect the abandoned luggage and display the owner trajectory.
 
 
 ## Contact
