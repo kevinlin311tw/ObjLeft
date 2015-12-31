@@ -57,7 +57,7 @@ Input the filename if you choose video
 
 Click a rectangular Region of Interest (ROI) for detection
 
-<img src="https://www.csie.ntu.edu.tw/~r01944012/objleft_fig1.png" width="500">
+<img src="https://www.csie.ntu.edu.tw/~r01944012/objleft_fig1.png" width="800">
 
 Double-press any key and start detection
 

@@ -6,6 +6,9 @@ Created by Kevin Lin, Shen-Chi Chen, Chu-Song Chen, Daw-Tung Lin, Yi-Ping Hung a
 
 _FYI: This is an industry-oriented project. Most of the algorithms are implemented using C/C++. We use OpenCV only for video input and visualization._
 
+_FYI: I am improving the readability of this code. Will update it soon!_
+
+
 ## Introduction
 
 This paper presents an effective approach for detecting abandoned luggage in surveillance videos. We combine short- and long-term background models to extract foreground objects, where each pixel in an input image is classified as a 2-bit code. Subsequently, we introduce a framework to identify static foreground regions based on the temporal transition of code patterns, and to determine whether the candidate regions contain abandoned objects by analyzing the back-traced trajectories of luggage owners. Experimental results show that our method performs more favorable against the others.
