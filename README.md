@@ -51,7 +51,7 @@ Select the input source (1: video, 2: camera)
 
     $ 1
 
-type the filename if you choose video
+Input the filename if you choose video
 
     $ pets2006_1.avi
 
@@ -59,11 +59,13 @@ Click a rectangular Region of Interest (ROI) for detection
 
 <img src="https://www.csie.ntu.edu.tw/~r01944012/objleft_fig1.png" width="500">
 
-Double-press any key and start detection! This demo will detect the abandoned luggage and the owner trajectory as shown below.
+Double-press any key and start detection
 
 <img src="https://www.csie.ntu.edu.tw/~r01944012/objleft_fig2.png">
+
+This demo will detect the abandoned luggage and the owner trajectory as shown below.
 
 
 ## Contact
 
-Should you have any question, please feel free to contact me (kevinlin311.tw@iis.sinica.edu.tw).
+Please feel free to leave suggestions or comments to Kevin Lin (kevinlin311.tw@iis.sinica.edu.tw)
