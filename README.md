@@ -61,7 +61,7 @@ Click a rectangular Region of Interest (ROI) for detection
 
 Double-press any key and start detection
 
-<img src="https://www.csie.ntu.edu.tw/~r01944012/objleft_fig2.png" width="800">
+<img src="https://www.csie.ntu.edu.tw/~r01944012/objleft_fig2.jpg" width="800">
 
 This demo will detect the abandoned luggage and the owner trajectory as shown below.
 
