@@ -30,10 +30,10 @@ If you find our works useful in your research, please consider citing:
 
 ## Prerequisites
 
-  0. OpenCV (tested on 64-bit Linux)
+  0. OpenCV
 
 
-## Setup ObjLeft
+## Setup
 
 Simply run the following commands:
 

@@ -1,10 +1,12 @@
+_FYI: We use OpenCV only for video input and visualization. Most of the algorithms are implemented using C/C++. I am improving the readability of this code. Will update it soon!_
+
+---
+
 # ObjLeft
 
 Abandoned Object Detection via Temporal Consistency Modeling and Back-Tracing Verification for Visual Surveillance
 
 Created by Kevin Lin, Shen-Chi Chen, Chu-Song Chen, Daw-Tung Lin, Yi-Ping Hung at National Taiwan University.
-
-_FYI: This is an industry-oriented project. Most of the algorithms are implemented using C/C++. We use OpenCV only for video input and visualization. I am improving the readability of this code. Will update it soon!_
 
 
 ## Introduction
