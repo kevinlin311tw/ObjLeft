@@ -360,24 +360,17 @@ void myImage_2_opencv(myImage * input, IplImage * output)
 /************************************************************************/
 void myResize(myImage * input, myImage * output) 
 { 
-    int scale1 = input->height/output->height; 
-    int scale2 = input->width/output->width; 
-	int width = output->width; 
-    int height = output->height; 
-  
-    if (scale1!=scale2){ 
-        printf("[ERROR] myResize:  different scaling parameter in width and height\n"); 
-        system("pause"); 
-    } 
-  
+    double scale_h = (double)input->height/(double)output->height; 
+    double scale_w = (double)input->width/(double)output->width; 
+	  int width = output -> width; 
+    int height = output -> height; 
+ 
 #pragma omp parallel for 
     for (int i = 0; i < output->height; i++){ 
-        for (int j = 0; j < output->width; j++){ 
-            //myColor colors = myGet2D(input,i*scale1,j*scale1); 
-            //mySet2D(output,colors,i,j); 
-			output->pixelData[(j + i*width)] = input->pixelData[(j*scale1 + i*scale1*input->width)];
-			output->pixelData[(j + i*width) + (width*height*1)] = input->pixelData[(j*scale1 + i*scale1*input->width) + (input->width*input->height*1)];
-			output->pixelData[(j + i*width) + (width*height*2)] = input->pixelData[(j*scale1 + i*scale1*input->width) + (input->width*input->height*2)];
+        for (int j = 0; j < output->width; j++){       
+			output->pixelData[(j + i*width)] = input->pixelData[( int(j*scale_w) + int(i*scale_h) * input->width)];
+			output->pixelData[(j + i*width) + (width*height*1)] = input->pixelData[int(j*scale_w) + int(i*scale_h) * input->width + (input->width*input->height*1)];
+			output->pixelData[(j + i*width) + (width*height*2)] = input->pixelData[int(j*scale_w) + int(i*scale_h) * input->width + (input->width*input->height*2)];
         } 
     } 
 } 
@@ -448,7 +441,7 @@ void myMedianBlur( myImage * input, myImage * output)
 }
 
 /************************************************************************/
-/* myCountNonZero: ­                                                    */
+/* myCountNonZero: Â­                                                    */
 /************************************************************************/
 int myCountNonZero(myImage * input) 
 { 
